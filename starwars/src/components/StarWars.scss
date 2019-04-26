@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid red;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: auto;
+
+
+    .char-container {
+        margin: 1%;
+        border-radius: 8px;
+        background   : white;
+        opacity      : .8;
+        width        : 200px;
+
+        img {
+            height: 200px;
+            width: auto;
+        }
+    }
+
+}
