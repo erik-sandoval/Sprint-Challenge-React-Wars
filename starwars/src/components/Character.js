@@ -10,8 +10,6 @@ const Character = (props) => {
         src = "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/C-3PO_droid.png/220px-C-3PO_droid.png"
     } else if (props.char.name === "R2-D2") {
         src = "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/R2-D2_Droid.png/220px-R2-D2_Droid.png"
-    } else if (props.char.name === "C-3PO") {
-        src = "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/C-3PO_droid.png/220px-C-3PO_droid.png"
     } else if (props.char.name === "Darth Vader") {
         src = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Darth_Vader.jpg/220px-Darth_Vader.jpg"
     } else if (props.char.name === "Leia Organa") {
